@@ -11,9 +11,16 @@ class Planet{
 
         void displaydata(){
             cout << "Hallo aku planet " << nama << ", ukuran ku " << diameter << ", Gravitasi ku " << gravitasi << endl;
-            
-        }
 
+        }
+    void inputdata(){
+        cout << "Input nama = ";
+        cin >> nama;
+        cout << "Ukuran = ";
+        cin >> diameter;
+        cout << "Gravitasi = ";
+        cin >> gravitasi;
+    }
 };
 int main()
 {
