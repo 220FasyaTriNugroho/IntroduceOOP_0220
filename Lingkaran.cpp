@@ -7,7 +7,12 @@ class Planet{
         float gravitasi;
     public :
         string nama;
-        float ukuran;
+        float diameter;
+
+        void displaydata(){
+            cout << "Hallo aku planet " << nama << ", ukuran ku " << diameter << ", Gravitasi ku " << gravitasi << endl;
+            
+        }
 
 };
 int main()
