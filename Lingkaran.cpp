@@ -24,5 +24,6 @@ class Planet{
 };
 int main()
 {
-    
+    Planet venus;
+    venus.inputdata();
 }
