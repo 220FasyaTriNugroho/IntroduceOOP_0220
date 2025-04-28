@@ -26,4 +26,6 @@ int main()
 {
     Planet venus;
     venus.inputdata();
+    cout << "Namanya adalah " << venus.nama << endl;
+    cout << "Diameternya adalah " << venus.diameter << endl;
 }
