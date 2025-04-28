@@ -2,7 +2,10 @@
 using namespace std;
 
 
+class Planet{
 
-int main(){
-
+};
+int main()
+{
+    
 }
