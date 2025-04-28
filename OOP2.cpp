@@ -21,4 +21,8 @@ public:
 
 int main()
 {
+    persegipanjang per;
+    per.inputdata();
+    per.menghitungluas();
+    return 0;
 }
